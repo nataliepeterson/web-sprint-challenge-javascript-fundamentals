@@ -25,11 +25,12 @@ myFunction();
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. 
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
-/*function summation(num){
-  for (let i=1; i<num; i++){
-    let add= 1
-    return num + add;
+function summation(num){
+  let add= 0
+  for (let i=1; i<=num; i++){
+   add= i+ add
   }
+  return add
 }
 console.log(summation(4));
 
